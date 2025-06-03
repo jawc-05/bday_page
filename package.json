@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "@parcel/transformer-sass": "^2.15.2",
-    "parcel": "^2.15.2"
+    "parcel": "^2.15.2",
+    "sharp": "^0.34.2"
   },
   "name": "birthday",
   "version": "1.0.0",
