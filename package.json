@@ -1,10 +1,10 @@
 {
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.2",
     "parcel": "^2.15.2"
   },
   "name": "birthday",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "ansi-styles": "^4.3.0",
     "base-x": "^3.0.11",
@@ -58,7 +58,7 @@
     "weak-lru-cache": "^1.2.2"
   },
   "scripts": {
-    "dev": "parcel src/index.html src/styles/main.css src/scripts/main.js",
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
